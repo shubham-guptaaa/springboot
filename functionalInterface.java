@@ -6,23 +6,23 @@ interface A{
 }
 
 // class B implements A{
-//     public void show(){
-//         System.err.println("in show");
+//     public void show(int i){
+//         System.err.println("in show"+i);
 //     }
 // }
 
 public class functionalInterface {
     public static void main(String[] args) {
         // A a = new B();
-        // a.show();
+        // a.show(5);
 
-        //annonimus fn
+        // annonimus fn
         // A obj = new A(){
         //     public void show(){
         //         System.out.println("in show");
         //     }
         // };
-        // obj.show();
+        // obj.show(5);
 
         //lambda expression
 
