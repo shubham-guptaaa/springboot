@@ -1,22 +1,22 @@
-// class A{
-//     public void showTheDataWhichBelongsToThisClass(){
-//         System.out.println("in A show");
-//     }
-// }
+class Ashow{
+    public void showTheDataWhichBelongsToThisClass(){
+        System.out.println("in A show");
+    }
+}
 
-// class B extends A{
+class Bshow extends Ashow{
 
     
-//     @Override
-//     public void showTheDataWhichBelongsToThisClass(){
-//         System.out.println("in B show");
-//     }
-// }
+    @Override
+    public void showTheDataWhichBelongsToThisClass(){
+        System.out.println("in B show");
+    }
+}
 
-// public class Annotation {
-//     public static void main(String[] args) {
-//         B b = new B();
-//         b.showTheDataWhichBelongsToThisClass();
+public class Annotation {
+    public static void main(String[] args) {
+        Bshow b = new Bshow();
+        b.showTheDataWhichBelongsToThisClass();
        
-//     }
-// }
+    }
+}
